@@ -2,8 +2,6 @@
 
 ![ezgif-5-22d3d39425](https://user-images.githubusercontent.com/44191076/148008744-14f89c9d-5343-483a-8bdc-c05618a84acc.gif)
 
-This is a simple shopping demo app, based on the same Angular/React/Vue.js examples in <i>[Essential Typescript](https://github.com/Apress/essential-typescript-4)</i> by Adam Freeman:
-
 - Front-end: (`/src`)
   - [TypeScript](https://www.typescriptlang.org/)
   - Component framework: [Svelte 4](https://svelte.dev/)
@@ -17,13 +15,9 @@ This is a simple shopping demo app, based on the same Angular/React/Vue.js examp
 - Database: (`/db`)
   - [SQLite](https://www.sqlite.org/index.html)
 
-The project comes with a [Dockerfile](https://github.com/alankrantas/svelteapp-typescript-go/blob/main/Dockerfile) that can create a single small container with multi-stage builds (image size less than 25 MB) and also support to be opened in [DevContainer](https://code.visualstudio.com/docs/devcontainers/containers)/[CodeSpace](https://github.com/features/codespaces).
-
-A [Github Action workflow](https://github.com/alankrantas/svelteapp-typescript-go/blob/main/.github/workflows/dependabot-test.yml) is created to run build test for dependabot's pull-requests for dependency updates.
+The project comes with a [Dockerfile](https://github.com/brainstormbuddy/svelte-typescript-go-demo/blob/main/Dockerfile) that can create a single small container with multi-stage builds (image size less than 25 MB) and also support to be opened in [DevContainer](https://code.visualstudio.com/docs/devcontainers/containers)/[CodeSpace](https://github.com/features/codespaces).
 
 The purpose of project is a demonstration to build a small and self-contained full-stack monolithic application with modern frameworks, but not meant to be a practical template for any real world applications. For example, error handlings between front-end and authentication are mostly ignored.
-
-> A similar version using Vue.js, Express, MongoDB and Docker Compose [can be found here](https://github.com/alankrantas/vueapp-typescript-express) (no longer maintained).
 
 ## Routes
 
@@ -170,8 +164,8 @@ For local development you'll need
 ### Clone Repository
 
 ```bash
-git clone https://github.com/alankrantas/svelteapp-typescript-go.git
-cd svelteapp-typescript-go
+git clone https://github.com/brainstormbuddy/svelte-typescript-go-demo.git
+cd svelte-typescript-go-demo
 npm i -g yarn@latest
 yarn setup-full
 ```
