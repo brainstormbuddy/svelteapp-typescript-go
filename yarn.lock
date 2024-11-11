@@ -1536,10 +1536,10 @@ supports-color@^7.1.0:
   dependencies:
     has-flag "^4.0.0"
 
-svelte-check@^4.0.4:
-  version "4.0.4"
-  resolved "https://registry.yarnpkg.com/svelte-check/-/svelte-check-4.0.4.tgz#2c796b1e2c0fc9f862289e9ed3bcf9b6620dfd6a"
-  integrity sha512-AcHWIPuZb1mh/jKoIrww0ebBPpAvwWd1bfXCnwC2dx4OkydNMaiG//+Xnry91RJMHFH7CiE+6Y2p332DRIaOXQ==
+svelte-check@^4.0.6:
+  version "4.0.6"
+  resolved "https://registry.yarnpkg.com/svelte-check/-/svelte-check-4.0.6.tgz#6f281406635178287d1a1d90cfc125348ab67eac"
+  integrity sha512-2XwmQNJaKbenJbvu5at+DuRpvF4v73Zu7f0/WkMl1O7WDm/IfF+E13t8D0nnRiRcMsNYm9ufHyLwfeMEnebpdg==
   dependencies:
     "@jridgewell/trace-mapping" "^0.3.25"
     chokidar "^4.0.1"
